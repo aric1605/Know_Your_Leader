@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "554914929417",
+    "firebase_url": "https://know-your-leader-57eac-default-rtdb.firebaseio.com",
+    "project_id": "know-your-leader-57eac",
+    "storage_bucket": "know-your-leader-57eac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554914929417:android:f8f8669bc49b8fbdf451d8",
+        "android_client_info": {
+          "package_name": "com.aric.knowyourleader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554914929417-r9caqoqn0qpep5hcgtuu4ebigbm1mdep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aric.knowyourleader",
+            "certificate_hash": "263aad9f31377162bc6880a663ff9328314c1964"
+          }
+        },
+        {
+          "client_id": "554914929417-49oibq5272vd78o0m3hlq1ugmhp8v4hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGOPhRmp0qmbZ2V2DDLJFT9Iabcc5isw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554914929417-49oibq5272vd78o0m3hlq1ugmhp8v4hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

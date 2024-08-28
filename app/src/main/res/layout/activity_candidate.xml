@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_background"
+    tools:context=".Candidate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CandidateActivity">
+
+        <TextView
+            android:id="@+id/tvCandidateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Candidate Name"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/tvCandidateName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp">
+
+            <RadioButton
+                android:id="@+id/radioFirstPreference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Preference (5 Points)"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/radioSecondPreference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second Preference (3 Points)"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/radioThirdPreference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Third Preference (1 Point)"
+                android:textColor="#000000" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmitVote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Vote"
+            app:layout_constraintTop_toBottomOf="@id/radioGroup"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

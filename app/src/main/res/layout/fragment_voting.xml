@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ujjawal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Ujjawal\nKhatri"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout2"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vasu" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Vasu\nSharma"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout3"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tushar" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tushar\nAgrawal"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout4"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/raman" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Raman\nSingh"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout5"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rakwal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Aniket\nRakwal"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout6"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pranav" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Pranav\nKhunt"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout7"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/priyal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Priyal\nMaheshwari"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout8"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/akshita" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Akshita\nBehl"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout9"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/anish" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Anish\nLaddha"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Row 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout10"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hussain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hussain\nHaidary"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout11"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/manas" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Manas\nYadav"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout12"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/priyam" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Priyam\nGarg"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Row 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout13"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/saumalya" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Saumilya\nGupta"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout14"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rinawa" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Arnav\nRinawa"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:id="@+id/frameLayout15"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Sajal\nJaggi"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!-- Row 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout16"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Akshit\nGarg"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout17"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Aditya\nDangyach"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout18"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Naveen"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="21dp">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout19"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Harshal\nPaliwal"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/frameLayout20"
+                android:layout_marginEnd="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circular_border"
+                        android:clipToOutline="true"
+                        android:contentDescription="Image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/no" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Kirti\nSinghal"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="7dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

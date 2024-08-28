@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Voting"
+        android:icon="@drawable/voting"
+        android:id="@+id/voting"/>
+    <item android:title="Live Results"
+        android:icon="@drawable/results"
+        android:id="@+id/results"/>
+    <item android:title="Profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"/>
+
+</menu>

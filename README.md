@@ -39,34 +39,8 @@
 
 Follow these steps to run the app locally:
 
+```bash
 git clone https://github.com/yourusername/KnowYourLeader.git
-
 Open the project in Android Studio
 Sync Gradle and let it build
 Run on an emulator or physical device
-
-🛠 Built With
-Language: Kotlin
-Architecture: MVVM
-UI: XML, Material Design Components
-Database: Room
-Other: Firebase (Optional), ViewModel, LiveData
-
-
-🧑‍💻 Contributing
-Contributions are welcome! If you have ideas, bug fixes, or improvements, feel free to:
-
-Fork the repo
-Create a new branch
-Submit a Pull Request ✨
-
-
-📬 Feedback
-Have suggestions or found a bug?
-
-Open an issue
-Connect with me on LinkedIn
-Drop an email: youremail@example.com
-
-
-<div align="center"> <br /> <b>⭐ Star the repo to support the project!</b> <br /><br /> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWR3eDBrMDF5ZnUyYmJlOXFlYTVncmJoajgwMTRtdGszcDBpa2x3YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4FGGafcOHmrlQxG0/giphy.gif" width="250px" alt="Thank You!" /> </div>

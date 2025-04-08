@@ -77,3 +77,6 @@ Have suggestions or found a bug?
 ---
 
 <div align="center"> <br /> <b>⭐ Star the repo to support the project!</b> <br /><br /> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWR3eDBrMDF5ZnUyYmJlOXFlYTVncmJoajgwMTRtdGszcDBpa2x3YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4FGGafcOHmrlQxG0/giphy.gif" width="250px" alt="Thank You!" /> </div>
+
+
+Made with ❤️ and ☕ by Aric

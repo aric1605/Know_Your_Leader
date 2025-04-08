@@ -4,9 +4,9 @@
   <p><strong>Vote with clarity. Choose with confidence.</strong></p>
   <br />
   <p>
-    <a href="https://github.com/yourusername/KnowYourLeader"><img alt="GitHub stars" src="https://img.shields.io/github/stars/yourusername/KnowYourLeader?style=social"></a>
-    <a href="https://github.com/yourusername/KnowYourLeader/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/yourusername/KnowYourLeader?color=blue"></a>
-    <a href="https://github.com/yourusername/KnowYourLeader/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/yourusername/KnowYourLeader"></a>
+    <a href="https://github.com/aric1605/Know_Your_Leader"><img alt="GitHub stars" src="https://img.shields.io/github/stars/aric1605/Know_Your_Leader?style=social"></a>
+    <a href="https://github.com/aric1605/Know_Your_Leader/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/aric1605/Know_Your_Leader?color=blue"></a>
+    <a href="https://github.com/aric1605/Know_Your_Leader/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/aric1605/Know_Your_Leader"></a>
   </p>
 </div>
 
@@ -71,10 +71,9 @@ Contributions are welcome! If you have ideas, bug fixes, or improvements, feel f
 
 Have suggestions or found a bug?
 
-- Open an issue
-- Connect with me on LinkedIn
-- Drop an email: youremail@example.com
+- Drop an email: aricvasaya10@gmail.com
+- Connect with me on [![Linkdin]](https://www.linkedin.com/in/aric-vasaya-a7a0b1287/)
 
 ---
 
-<div align="center"> <br /> <b>⭐ Star the repo to support the project!</b> <br /><br /> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWR3eDBrMDF5ZnUyYmJlOXFlYTVncmJoajgwMTRtdGszcDBpa2x3YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4FGGafcOHmrlQxG0/giphy.gif" width="250px" alt="Thank You!" /> </div> ```
+<div align="center"> <br /> <b>⭐ Star the repo to support the project!</b> <br /><br /> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWR3eDBrMDF5ZnUyYmJlOXFlYTVncmJoajgwMTRtdGszcDBpa2x3YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4FGGafcOHmrlQxG0/giphy.gif" width="250px" alt="Thank You!" /> </div>

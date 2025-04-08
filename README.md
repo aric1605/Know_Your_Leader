@@ -40,12 +40,12 @@
 Follow these steps to run the app locally:
 
 
-git clone https://github.com/yourusername/KnowYourLeader.git
+git clone https://github.com/aric1605/Know_Your_Leader.git
 
 
-Open the project in Android Studio
-Sync Gradle and let it build
-Run on an emulator or physical device
+- Open the project in Android Studio
+- Sync Gradle and let it build
+- Run on an emulator or physical device
 
 ---
 
@@ -72,7 +72,7 @@ Contributions are welcome! If you have ideas, bug fixes, or improvements, feel f
 Have suggestions or found a bug?
 
 - Drop an email: aricvasaya10@gmail.com
-- Connect with me on [![Linkdin]](https://www.linkedin.com/in/aric-vasaya-a7a0b1287/)
+- Connect with me on [Linkdin](https://www.linkedin.com/in/aric-vasaya-a7a0b1287/)
 
 ---
 

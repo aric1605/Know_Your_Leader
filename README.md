@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://your-image-link.com/banner.png" alt="Know Your Leader Banner" width="100%" />
+  <img src="[https://your-image-link.com/banner.png](https://github.com/aric1605/Know_Your_Leader/blob/a356c3e6697552c9215bb9e8ed48e3fddbdfd0cf/banner.png)" alt="Know Your Leader Banner" width="100%" />
   <h1>Know Your Leader 🗳️</h1>
   <p><strong>Vote with clarity. Choose with confidence.</strong></p>
   <br />

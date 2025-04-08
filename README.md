@@ -31,7 +31,7 @@
 
 ## 📦 Download & Try
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://your-apk-link.com)
+[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://drive.google.com/file/d/1wCqTRLMWPS5QOrieHDhP3XjWsF7dPjnr/view?usp=sharing)
 
 ---
 

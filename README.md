@@ -71,9 +71,9 @@ Contributions are welcome! If you have ideas, bug fixes, or improvements, feel f
 
 Have suggestions or found a bug?
 
-Open an issue
-Connect with me on LinkedIn
-Drop an email: youremail@example.com
+- Open an issue
+- Connect with me on LinkedIn
+- Drop an email: youremail@example.com
 
 ---
 
